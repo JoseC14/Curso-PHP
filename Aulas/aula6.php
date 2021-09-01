@@ -16,4 +16,4 @@ switch($pos){
     default:
         echo "Não foi ao pódio";
         break;
-};
+};//Resultado:1

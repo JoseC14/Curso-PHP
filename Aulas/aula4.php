@@ -34,3 +34,9 @@ echo "Nome: ".$dados["nome"]." - Cidade: ".$dados["cidade"]." - Curso: ".$dados[
 echo "Carro A ".$carros[0][0]." - Valor: ".$carros[0][1]."<br>";
 echo "Carro B ".$carros[1][0]." - Valor: ".$carros[1][1]."<br>";
 echo "Carro C ".$carros[2][0]." - Valor: ".$carros[2][1]."<br>";
+
+var_dump($dados)."<br>";
+
+$size=count($transportes);
+
+echo $size;
