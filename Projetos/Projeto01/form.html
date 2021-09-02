@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Formulário para vaga de emprego</title>
+</head>
+<body id="body">
+    <form name="form" method="POST" action="get.php" id="form">
+        <h3>Formúlario para vaga de emprego como programador</h1>
+        <label>NOME</label>
+        <br>
+        <input type="text" name="f_nome" id="nome">
+        <br>
+        <br>
+        <div id="data">
+        <label>DATA DE NASCIMENTO </label>
+        <p>Dia</p>
+        <input type="number" name="f_dia" id="dia">
+        <br>
+        <p>Mês</p>
+        <input type="number" name="f_mes" id="mes">
+        <br>
+        <p>Ano</p>
+        <input type="number" name="f_ano" id="ano">
+        </div>
+        <br>
+        <br>
+        <label>Digite suas experiências abaixo</label>
+        <br>
+        <br>
+        <textarea type="text" name="f_exp" rows= "5" cols="40" rows="5"></textarea>
+        <br>
+        <br>
+        <label>Deixe o link do seu github abaixo</label>
+        <br>
+        <br>
+        <input type="url" name="f_git">
+        <br>
+        <button type="submit">Enviar formulário</button>
+    </form>
+</body>
+</html>
